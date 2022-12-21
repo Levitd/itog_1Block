@@ -21,6 +21,6 @@ string[] smolArray(string[] inArray)
     return newArray;
 }
 
-//string[] array1 = new string[] {"sfgdb sdfgb", "fr", "advasdf", "hjjhgbkh"};
+string[] array1 = new string[] {"sfgdb sdfgb", "fr", "advasdf", "hjjhgbkh"};
 
-WriteLine($"[{String.Join(",", smolArray(new string[] { "sfgdb sdfgb", "fr", "advasdf", "hjjhgbkh" }))}]");
+WriteLine($"[{String.Join(",",array1)}] -> [{String.Join(",", smolArray(array1))}]");
