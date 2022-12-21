@@ -11,6 +11,13 @@ string[] smolArray(string[] inArray)
         countSmolString += (item.Length <= 3) ? 1 : 0;
     }
     string[] newArray = new string[countSmolString];
+    int i=0;
+    foreach (string item in inArray){
+        if (item.Length <= 3) {
+            newArray[i]=item;
+            i++;
+        }
+    }
     return newArray;
 }
 
